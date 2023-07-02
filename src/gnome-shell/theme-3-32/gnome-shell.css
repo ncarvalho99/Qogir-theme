@@ -1759,7 +1759,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   font-weight: normal;
   height: 2.1em;
   min-height: 27px;
-  background-color: #21232b;
+  background-color: #030303;
   border: none;
   font-feature-settings: "tnum";
   transition-duration: 250ms;
@@ -1785,7 +1785,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-corner {
   -panel-corner-radius: 0;
-  -panel-corner-background-color: #21232b;
+  -panel-corner-background-color: #030303;
   -panel-corner-border-width: 0;
   -panel-corner-border-color: transparent;
 }
@@ -3194,7 +3194,7 @@ StWidget.focused .app-well-app-running-dot {
 #dash {
   font-size: 1em;
   color: #D3DAE3;
-  background-color: #32343D;
+  background-color: #070707;
   border-color: rgba(0, 0, 0, 0.4);
   padding: 4px 0;
   border-radius: 0 3px 3px 0;
@@ -3526,11 +3526,11 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer #dash {
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 #dashtodockContainer.opaque #dash {
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 #dashtodockContainer.transparent #dash {
@@ -3538,15 +3538,15 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer:overview #dash {
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 #dashtodockContainer.opaque:overview #dash, #dashtodockContainer.transparent:overview #dash {
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 #dashtodockContainer.extended:overview #dash, #dashtodockContainer.opaque.extended:overview #dash, #dashtodockContainer.transparent.extended:overview #dash {
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 #dashtodockContainer .app-well-app .overview-icon,
@@ -3677,7 +3677,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #panel.dashtopanelMainPanel.dashtopanelTop {
-  background-gradient-start: #21232b;
+  background-gradient-start: #030303;
   background-gradient-end: #D3DAE3;
 }
 
@@ -3758,7 +3758,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #panel.dashtopanelMainPanel.dashtopanelBottom {
-  background-gradient-start: #21232b;
+  background-gradient-start: #030303;
   background-gradient-end: #D3DAE3;
 }
 

@@ -215,7 +215,7 @@ toast, .osd popover.background > arrow,
 popover.background.touch-selection > contents, popover.background.magnifier > arrow,
 popover.background.magnifier > contents, toolbar.osd, .osd {
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   background-clip: padding-box;
   -gtk-icon-shadow: none;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
@@ -729,7 +729,7 @@ button:drop(active) {
 
 button.osd {
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   border: none;
   box-shadow: none;
   background-clip: border-box;
@@ -1946,14 +1946,14 @@ headerbar {
   border: none;
   color: #e0e5eb;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12);
-  background-color: #282A33;
+  background-color: #030303;
   min-height: 40px;
 }
 
 headerbar:backdrop {
   transition: 200ms ease-out;
   color: rgba(224, 229, 235, 0.7);
-  background-color: #2b2e37;
+  background-color: #151515;
 }
 
 headerbar.flat {
@@ -2066,12 +2066,12 @@ headerbar.selection-mode .selection-menu .arrow {
 }
 
 .maximized headerbar {
-  background-color: #282a33;
+  background-color: #030303;
   border-color: #3e4250;
 }
 
 .maximized headerbar:backdrop {
-  background-color: #2b2e37;
+  background-color: #151515;
 }
 
 headerbar.default-decoration {
@@ -2087,7 +2087,7 @@ headerbar.default-decoration windowcontrols menubutton button {
 }
 
 headerbar.default-decoration headerbar.default-decoration:backdrop {
-  background-color: #282A33;
+  background-color: #030303;
   border-bottom-width: 0;
   box-shadow: none;
 }
@@ -2104,12 +2104,12 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 }
 
 .titlebar:not(headerbar) > separator {
-  background-image: image(#282A33);
+  background-image: image(#030303);
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12);
 }
 
 .titlebar:not(headerbar) > separator:backdrop {
-  background-image: image(#282A33);
+  background-image: image(#030303);
 }
 
 headerbar separator, headerbar separator.titlebutton {
@@ -2123,7 +2123,7 @@ headerbar separator, headerbar separator.titlebutton {
 headerbar entry {
   color: #e0e5eb;
   border-color: rgba(255, 255, 255, 0.12);
-  background-color: #21232a;
+  background-color: #121214;
 }
 
 headerbar entry image, headerbar entry image:hover {
@@ -2806,7 +2806,7 @@ treeview.view header.button.dnd {
 
 menubar {
   padding: 0;
-  background-color: #282a33;
+  background-color: #030303;
   color: #e0e5eb;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12);
 }
@@ -4560,7 +4560,7 @@ columnview row:not(:selected) cell editablelabel.editing text selection {
 .app-notification {
   padding: 10px;
   color: #D3DAE3;
-  background-color: alpha(#282A33,0.9);
+  background-color: alpha(#030303,0.9);
   background-clip: border-box;
   border-radius: 0 0 2px 2px;
   border-width: 0 1px 1px 1px;
@@ -4739,7 +4739,7 @@ window.dialog.message .linked:not(.vertical) > button:only-child {
 }
 
 window.dialog.message.background {
-  background-color: #282A33;
+  background-color: #030303;
   color: #e0e5eb;
   border-radius: 2px;
   border: none;
@@ -4747,7 +4747,7 @@ window.dialog.message.background {
 
 window.dialog.message .titlebar {
   min-height: 20px;
-  background-color: #282A33;
+  background-color: #030303;
   border-bottom: none;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -4755,14 +4755,14 @@ window.dialog.message .titlebar {
 }
 
 window.dialog.message .titlebar:backdrop {
-  background-color: #282A33;
+  background-color: #030303;
 }
 
 window.dialog.message .dialog-action-area button {
   padding: 6px 10px 8px 10px;
   border-radius: 0;
   border: none;
-  background-color: #282A33;
+  background-color: #030303;
   color: #e0e5eb;
 }
 
@@ -5412,7 +5412,7 @@ window.dialog.message {
 window.solid-csd {
   margin: 0;
   padding: 0;
-  border: solid 2px #32343D;
+  border: solid 2px #070707;
   border-radius: 0;
   box-shadow: none;
 }
@@ -5576,7 +5576,7 @@ statusbar {
 
 leaflet.unfolded > box:last-child popover.background > contents, leaflet.unfolded > box:last-child popover.background > arrow, leaflet.unfolded > box:last-child {
   color: rgba(246, 246, 251, 0.8);
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 leaflet.unfolded > box:last-child popover.background > contents:disabled, leaflet.unfolded > box:last-child popover.background > arrow:disabled, leaflet.unfolded > box:disabled:last-child, leaflet.unfolded > box:last-child popover.background > contents label:disabled, leaflet.unfolded > box:last-child popover.background > arrow label:disabled, leaflet.unfolded > box:last-child label:disabled {
@@ -5637,12 +5637,12 @@ leaflet.unfolded > box:last-child popover.background > contents .button:disabled
 
 leaflet.unfolded > box:last-child list > row {
   color: rgba(246, 246, 251, 0.8);
-  background-color: #32343D;
+  background-color: #070707;
 }
 
 leaflet.unfolded > box:last-child list > row:hover {
   color: #F6F6FB;
-  background-color: #464750;
+  background-color: #121212;
 }
 
 leaflet.unfolded > box:last-child list > row:active {
@@ -5684,19 +5684,19 @@ leaflet.unfolded > box:last-child searchbar {
 }
 
 leaflet.unfolded > box:last-child searchbar > revealer > box {
-  background-color: #32343D;
+  background-color: #070707;
   border: none;
 }
 
 leaflet.unfolded > box:last-child > headerbar {
   color: rgba(246, 246, 251, 0.8);
-  background-color: #32343D;
+  background-color: #070707;
   border: none;
   box-shadow: none;
 }
 
 .nautilus-window headerbar {
-  background-image: -gtk-scaled(url("assets/logo.svg"), url("assets/logo@2.svg")), image(#32343D);
+  background-image: -gtk-scaled(url("assets/logo.svg"), url("assets/logo@2.svg")), image(#070707);
   background-repeat: no-repeat;
   background-size: 38px auto;
   background-position: left center;
@@ -5785,8 +5785,8 @@ leaflet.unfolded > box:last-child > headerbar {
 }
 
 .nautilus-window flap.unfolded {
-  background-color: #272931;
-  background-image: image(#32343D);
+  background-color: #030303;
+  background-image: image(#070707);
   background-size: 38px auto;
   background-repeat: no-repeat;
   background-position: left center;
@@ -5832,7 +5832,7 @@ leaflet.unfolded > box:last-child > headerbar {
 
 .nautilus-window flap.unfolded > placessidebar row.sidebar-row.has-open-popup, .nautilus-window flap.unfolded > placessidebar row.sidebar-row:hover {
   background-color: rgba(216, 222, 223, 0.05);
-  box-shadow: inset -2px 0 #7eafe9, inset 38px 0 0 0 #32343D;
+  box-shadow: inset -2px 0 #7eafe9, inset 38px 0 0 0 #070707;
 }
 
 .nautilus-window flap.unfolded > placessidebar row.sidebar-row:disabled, .nautilus-window flap.unfolded > placessidebar row.sidebar-row:disabled label, .nautilus-window flap.unfolded > placessidebar row.sidebar-row:disabled image {
@@ -6929,8 +6929,8 @@ preferencesgroup > box button.background-preview-button.toggle:checked {
 @define-color text_view_bg #ffffff;
 @define-color wm_title alpha(#e0e5eb, 0.8);
 @define-color wm_unfocused_title alpha(#e0e5eb, 0.5);
-@define-color wm_bg #282a33;
-@define-color wm_bg_unfocused #2b2e37;
+@define-color wm_bg #030303;
+@define-color wm_bg_unfocused #151515;
 @define-color wm_highlight #333641;
 @define-color wm_shadow alpha(black, 0.35);
 @define-color wm_border #a6a6a6;

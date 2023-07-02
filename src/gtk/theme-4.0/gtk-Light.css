@@ -215,7 +215,7 @@ toast, .osd popover.background > arrow,
 popover.background.touch-selection > contents, popover.background.magnifier > arrow,
 popover.background.magnifier > contents, toolbar.osd, .osd {
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   background-clip: padding-box;
   -gtk-icon-shadow: none;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
@@ -729,7 +729,7 @@ button:drop(active) {
 
 button.osd {
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   border: none;
   box-shadow: none;
   background-clip: border-box;
@@ -4514,7 +4514,7 @@ columnview row:not(:selected) cell editablelabel.editing text selection {
 .app-notification {
   padding: 10px;
   color: #D3DAE3;
-  background-color: alpha(#282A33,0.9);
+  background-color: alpha(#030303,0.9);
   background-clip: border-box;
   border-radius: 0 0 2px 2px;
   border-width: 0 1px 1px 1px;

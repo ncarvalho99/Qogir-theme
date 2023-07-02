@@ -82,7 +82,7 @@
 
 .workspace-switcher-container, .switcher-list, .resize-popup, .osd-window {
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   border-radius: 3px;
   padding: 12px;
   border: 1px solid #434655 !important;
@@ -1319,7 +1319,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   margin: 0;
   box-shadow: none;
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   border: none !important;
   border-top: 0 solid rgba(0, 0, 0, 0.12) !important;
 }
@@ -1759,7 +1759,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   font-weight: normal;
   height: 2.1em;
   min-height: 27px;
-  background-color: #21232b;
+  background-color: #030303;
   border: none;
   font-feature-settings: "tnum";
   transition-duration: 250ms;
@@ -1785,7 +1785,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-corner {
   -panel-corner-radius: 0;
-  -panel-corner-background-color: #21232b;
+  -panel-corner-background-color: #030303;
   -panel-corner-border-width: 0;
   -panel-corner-border-color: transparent;
 }
@@ -1950,7 +1950,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .window-caption {
   color: #D3DAE3;
-  background-color: #282A33;
+  background-color: #030303;
   border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 2px;
   padding: 3px 12px;
@@ -2400,7 +2400,7 @@ StWidget.focused .app-well-app-running-dot {
 
 /* Workspace animation */
 .workspace-animation {
-  background-color: #282A33;
+  background-color: #030303;
 }
 
 /* Tiled window previews */
@@ -2606,7 +2606,7 @@ StWidget.focused .app-well-app-running-dot {
 
 /* Looking Glass */
 #LookingGlassDialog {
-  background-color: #282A33;
+  background-color: #030303;
   spacing: 6px;
   padding: 4px;
   border: 1px solid rgba(211, 218, 227, 0.2);
@@ -2617,7 +2617,7 @@ StWidget.focused .app-well-app-running-dot {
 #LookingGlassDialog > #Toolbar {
   border: none;
   border-radius: 2px;
-  background-color: #282A33;
+  background-color: #030303;
 }
 
 #LookingGlassDialog > #Toolbar .lg-toolbar-button {
@@ -2740,7 +2740,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #LookingGlassPropertyInspector {
-  background: #282A33;
+  background: #030303;
   border: 1px solid #434655;
   border-radius: 2px;
   color: #D3DAE3;
@@ -3078,7 +3078,7 @@ StWidget.focused .app-well-app-running-dot {
 .unlock-dialog-notification-count-text {
   weight: bold;
   padding: 0 16px;
-  color: #282A33;
+  color: #030303;
   background-color: rgba(211, 218, 227, 0.1);
   border-radius: 1000px;
 }
@@ -3114,7 +3114,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #lockDialogGroup {
-  background-color: #282A33;
+  background-color: #030303;
   background-image: url("assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;

@@ -3,9 +3,9 @@
 
 @import 'tweaks-temp';
 
-$base_color: if($variant =='light', #ffffff, #282A33);
+$base_color: if($variant =='light', #ffffff, #030303);
 $text_color: if($variant == 'light', #4a4c59, #e0e5eb);
-$bg_color: if($variant =='light', #fafbfc, #32343D);
+$bg_color: if($variant =='light', #fafbfc, #070707);
 $fg_color: if($variant =='light', #464853, #e6ebef);
 
 $alt_base_color: if($variant == 'light', darken($base_color, 5%), lighten($base_color, 5%));
@@ -56,8 +56,8 @@ $insensitive_bg_color: lighten($bg_color, 2%);
 $header_bg: black;
 @if $trans == 'true' and $variant == 'light' { $header_bg: rgba(#ffffff, 0.95); }
 @if $trans == 'false' and $variant == 'light' { $header_bg: #ffffff; }
-@if $trans == 'true' and ($variant == 'dark' or $titlebar == 'dark') { $header_bg: rgba(#282A33, 0.97); }
-@if $trans == 'false' and ($variant == 'dark' or $titlebar == 'dark') { $header_bg: #282A33; }
+@if $trans == 'true' and ($variant == 'dark' or $titlebar == 'dark') { $header_bg: rgba(#030303, 0.97); }
+@if $trans == 'false' and ($variant == 'dark' or $titlebar == 'dark') { $header_bg: #030303; }
 
 $header_bg_backdrop: if($titlebar == 'dark' or $variant == 'dark', lighten($header_bg, 1.5%), lighten($header_bg, 3%));
 
@@ -69,19 +69,19 @@ $alt_header_fg: mix($header_fg, $header_bg, 75%);
 $dark_sidebar_bg: white;
 @if $trans == 'true' and $titlebar == 'light' { $dark_sidebar_bg: rgba(#f6f9fb, 0.95); }
 @if $trans == 'false' and $titlebar == 'light' { $dark_sidebar_bg: #f6f9fb; }
-@if $trans == 'true' and $titlebar == 'dark' { $dark_sidebar_bg: rgba(#272931, 0.95); }
-@if $trans == 'false' and $titlebar == 'dark' { $dark_sidebar_bg: #272931; }
+@if $trans == 'true' and $titlebar == 'dark' { $dark_sidebar_bg: rgba(#030303, 0.95); }
+@if $trans == 'false' and $titlebar == 'dark' { $dark_sidebar_bg: #030303; }
 
 $dark_sidebar_fg: if($titlebar == 'light', #575a60, #d8dedf);
 $alt_dark_sidebar_fg: if($variant == 'light', darken($dark_sidebar_fg, 10%), lighten($dark_sidebar_fg, 10%));
 
-$dark_sidebar_icon_bg: #32343D;
+$dark_sidebar_icon_bg: #070707;
 $dark_sidebar_icon_fg: #F6F6FB;
 
 $dark_sidebar_border: if($variant == 'light', darken($dark_sidebar_bg, 10%), lighten($dark_sidebar_bg, 8%));
 
 $osd_fg_color: #D3DAE3;
-$osd_bg_color: #282A33;
+$osd_bg_color: #030303;
 
 $osd_button_bg: lighten($osd_bg_color, 5%);
 $osd_button_border: lighten($osd_bg_color, 12%);
@@ -95,7 +95,7 @@ $osd_borders_color: $osd_button_border;
 
 $menu_bg: if($variant=='light', $base_color, $bg_color);
 
-$panel_bg: #21232b;
+$panel_bg: #030303;
 $panel_fg: $osd_fg_color;
 
 $dash_bg: $dark_sidebar_icon_bg;
